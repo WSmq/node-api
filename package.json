@@ -1,8 +1,9 @@
 {
   "name": "@cloudws/node-api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node.js server CLoudWS API",
   "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "scripts": {
     "build": "rm -rf dist && tsc"
   },
