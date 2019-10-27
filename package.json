@@ -1,0 +1,38 @@
+{
+  "name": "@cloudws/node-api",
+  "version": "0.1.0",
+  "description": "Node.js server CLoudWS API",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CloudWSIO/node-api.git"
+  },
+  "keywords": [
+    "cloudws",
+    "node.js",
+    "api"
+  ],
+  "author": "CloudWS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CloudWSIO/node-api/issues"
+  },
+  "homepage": "https://github.com/CloudWSIO/node-api#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/request-promise-native": "^1.0.17",
+    "pre-commit": "^1.2.2",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  },
+  "precommit": [
+    "build"
+  ]
+}
