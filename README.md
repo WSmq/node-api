@@ -1,4 +1,4 @@
-# CloudWS Node.js lib
+# WSmq Node.js lib
 
 #### Installation
 ```
